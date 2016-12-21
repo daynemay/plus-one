@@ -40,7 +40,7 @@ layout: default
                  onclick="toastr.success('Copied {{ gif_file }} to clipboard!')">
                 <img src="{{ site.github.url }}/static/{{ gif_file }}"/>
               </a>
-              <div>{{gif_name}}</div>
+              <div class="gif-name">{{gif_name}}</div>
             </div>
           {% endif %}
         {% endfor %}
